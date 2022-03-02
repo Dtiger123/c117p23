@@ -1,0 +1,53 @@
+body{
+    background-color: coral;
+ }
+ h1{
+     color: cornflowerblue;
+     background-color: darkslateblue;
+ }
+ #show_sketch{
+     float:right;
+ }
+ canvas{
+     border:5px solid white;
+     border-radius:25px;
+     animation-name:example;
+     animation-duration:4s;
+     animation-iteration-count: infinite;
+     margin-top: 50px;
+ }
+ @keyframes example{
+     from{box-shadow:5px 5px 30px grey;}
+     to{box-shadow:5px 5px 30px white;}
+ 
+ }
+ p{
+     padding-top:10px;
+     font-size: 25px;
+ }body{
+   background-color: coral;
+}
+h1{
+    color: cornflowerblue;
+    background-color: darkslateblue;
+}
+#show_sketch{
+    float:right;
+}
+canvas{
+    border:5px solid white;
+    border-radius:25px;
+    animation-name:example;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+@keyframes example{
+    from{box-shadow:5px 5px 30px grey;}
+    to{box-shadow:5px 5px 30px white;}
+
+}
+p{
+    padding-top:10px;
+    font-size: 25px;
+}
